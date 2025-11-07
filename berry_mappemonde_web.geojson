@@ -1,0 +1,2008 @@
+{
+  "type": "FeatureCollection",
+  "name": "Berry-Mappemonde - Web Ready",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "01. Saint-Maur → La Rochelle",
+        "type": "terrestrial",
+        "style": "dashed",
+        "escale_depart": "Saint-Maur",
+        "escale_arrivee": "La Rochelle",
+        "distance_nm": 0,
+        "notes": "Déplacement terrestre - départ de l'expédition",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.6358,
+            46.8075
+          ],
+          [
+            -1.152,
+            46.1591
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "02. La Rochelle → Gibraltar",
+        "type": "maritime",
+        "style": "solid",
+        "escale_depart": "La Rochelle",
+        "escale_arrivee": "Gibraltar",
+        "passage_strategique": false,
+        "distance_nm": 780,
+        "notes": "Descente côte atlantique française/espagnole",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.152,
+            46.1591
+          ],
+          [
+            -1.5,
+            45.5
+          ],
+          [
+            -2.0,
+            44.5
+          ],
+          [
+            -3.0,
+            43.5
+          ],
+          [
+            -5.5,
+            41.0
+          ],
+          [
+            -6.5,
+            38.5
+          ],
+          [
+            -5.3553,
+            36.1377
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "03. Gibraltar (passage stratégique)",
+        "type": "maritime",
+        "style": "solid",
+        "passage_strategique": true,
+        "strategic_passage_name": "Gibraltar",
+        "distance_nm": 10,
+        "notes": "PASSAGE STRATÉGIQUE - Méditerranée → Atlantique",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.3553,
+            36.1377
+          ],
+          [
+            -5.5,
+            36.0
+          ],
+          [
+            -6.0,
+            36.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "04. Gibraltar → Guadeloupe",
+        "type": "maritime",
+        "style": "solid",
+        "escale_arrivee": "Guadeloupe",
+        "distance_nm": 3450,
+        "notes": "Traversée Atlantique Est → Ouest (contrainte obligatoire)",
+        "weather_optimized": true,
+        "optimization_tool": "FastSeas",
+        "optimization_notes": "Weather-optimized Atlantic crossing based on wind patterns",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6.0,
+            36.0
+          ],
+          [
+            -10.0,
+            32.0
+          ],
+          [
+            -15.0,
+            28.0
+          ],
+          [
+            -20.0,
+            25.0
+          ],
+          [
+            -25.0,
+            22.0
+          ],
+          [
+            -30.0,
+            20.0
+          ],
+          [
+            -35.0,
+            18.5
+          ],
+          [
+            -40.0,
+            17.5
+          ],
+          [
+            -45.0,
+            17.0
+          ],
+          [
+            -50.0,
+            16.8
+          ],
+          [
+            -55.0,
+            16.5
+          ],
+          [
+            -61.5331,
+            16.2415
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "05. Guadeloupe → Martinique",
+        "type": "maritime",
+        "style": "solid",
+        "escale_depart": "Guadeloupe",
+        "escale_arrivee": "Martinique",
+        "distance_nm": 110,
+        "notes": "Navigation inter-îles Antilles",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -61.5331,
+            16.2415
+          ],
+          [
+            -61.5,
+            15.5
+          ],
+          [
+            -61.2,
+            15.0
+          ],
+          [
+            -61.0731,
+            14.6037
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "06. Martinique → Saint-Barthélemy",
+        "type": "maritime",
+        "style": "solid",
+        "escale_depart": "Martinique",
+        "escale_arrivee": "Saint-Barthélemy",
+        "distance_nm": 95,
+        "notes": "Remontée vers les Antilles du Nord",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -61.0731,
+            14.6037
+          ],
+          [
+            -61.2,
+            15.0
+          ],
+          [
+            -61.5,
+            15.5
+          ],
+          [
+            -62.0,
+            16.5
+          ],
+          [
+            -62.5,
+            17.2
+          ],
+          [
+            -62.8498,
+            17.8962
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "07. Saint-Barthélemy → Saint-Martin",
+        "type": "maritime",
+        "style": "solid",
+        "escale_depart": "Saint-Barthélemy",
+        "escale_arrivee": "Saint-Martin",
+        "distance_nm": 15,
+        "notes": "Courte navigation entre îles proches",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -62.8498,
+            17.8962
+          ],
+          [
+            -63.0822,
+            18.0679
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "08. Saint-Martin → Halifax (vol)",
+        "type": "aerial",
+        "style": "dashed",
+        "escale_depart": "Saint-Martin",
+        "escale_arrivee": "Halifax",
+        "distance_nm": 1850,
+        "notes": "Vol commercial - Escale découplée SPM",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -63.0822,
+            18.0679
+          ],
+          [
+            -63.5752,
+            44.6488
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "09. Halifax → Saint-Pierre-et-Miquelon",
+        "type": "maritime",
+        "style": "solid",
+        "escale_depart": "Halifax",
+        "escale_arrivee": "Saint-Pierre-et-Miquelon",
+        "distance_nm": 285,
+        "notes": "Navigation en bateau depuis Halifax",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -63.5752,
+            44.6488
+          ],
+          [
+            -62.0,
+            45.5
+          ],
+          [
+            -60.0,
+            46.0
+          ],
+          [
+            -58.0,
+            46.5
+          ],
+          [
+            -56.1778,
+            46.7811
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "10. Saint-Pierre-et-Miquelon → Halifax (retour vol)",
+        "type": "aerial",
+        "style": "dashed",
+        "escale_depart": "Saint-Pierre-et-Miquelon",
+        "escale_arrivee": "Halifax",
+        "distance_nm": 285,
+        "notes": "Vol retour vers Halifax",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -56.1778,
+            46.7811
+          ],
+          [
+            -63.5752,
+            44.6488
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "11. Halifax → Saint-Martin (vol retour)",
+        "type": "aerial",
+        "style": "dashed",
+        "escale_depart": "Halifax",
+        "escale_arrivee": "Saint-Martin",
+        "distance_nm": 1850,
+        "notes": "Vol retour vers les Caraïbes",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -63.5752,
+            44.6488
+          ],
+          [
+            -63.0822,
+            18.0679
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "12. Saint-Martin → Guyane",
+        "type": "maritime",
+        "style": "solid",
+        "escale_depart": "Saint-Martin",
+        "escale_arrivee": "Guyane",
+        "distance_nm": 850,
+        "notes": "Descente vers l'Amérique du Sud",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -63.0822,
+            18.0679
+          ],
+          [
+            -62.0,
+            16.0
+          ],
+          [
+            -61.0,
+            14.0
+          ],
+          [
+            -60.0,
+            12.0
+          ],
+          [
+            -58.5,
+            10.0
+          ],
+          [
+            -57.0,
+            8.0
+          ],
+          [
+            -55.5,
+            6.5
+          ],
+          [
+            -54.0,
+            5.5
+          ],
+          [
+            -52.3333,
+            4.9333
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "13. Guyane → Canal de Panama",
+        "type": "maritime",
+        "style": "solid",
+        "escale_depart": "Guyane",
+        "escale_arrivee": "Panama",
+        "distance_nm": 1420,
+        "notes": "Navigation côtière vers Panama",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -52.3333,
+            4.9333
+          ],
+          [
+            -55.0,
+            6.0
+          ],
+          [
+            -58.0,
+            7.5
+          ],
+          [
+            -62.0,
+            9.0
+          ],
+          [
+            -66.0,
+            10.0
+          ],
+          [
+            -70.0,
+            10.5
+          ],
+          [
+            -74.0,
+            10.0
+          ],
+          [
+            -77.0,
+            9.5
+          ],
+          [
+            -79.5,
+            9.2
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "14. Canal de Panama (passage stratégique)",
+        "type": "maritime",
+        "style": "solid",
+        "passage_strategique": true,
+        "strategic_passage_name": "Panama",
+        "distance_nm": 50,
+        "notes": "PASSAGE STRATÉGIQUE - Atlantique → Pacifique",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.5,
+            9.2
+          ],
+          [
+            -79.55,
+            9.0
+          ],
+          [
+            -79.9,
+            8.9
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "15. Panama → Polynésie française",
+        "type": "maritime",
+        "style": "solid",
+        "escale_arrivee": "Polynésie française",
+        "distance_nm": 4850,
+        "notes": "Grande traversée du Pacifique",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9,
+            8.9
+          ],
+          [
+            -85.0,
+            5.0
+          ],
+          [
+            -90.0,
+            0.0
+          ],
+          [
+            -95.0,
+            -5.0
+          ],
+          [
+            -100.0,
+            -8.0
+          ],
+          [
+            -110.0,
+            -10.0
+          ],
+          [
+            -120.0,
+            -12.0
+          ],
+          [
+            -130.0,
+            -14.0
+          ],
+          [
+            -140.0,
+            -16.0
+          ],
+          [
+            -149.5585,
+            -17.5516
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "16. Polynésie → Wallis-et-Futuna (partie 1/2)",
+        "type": "maritime",
+        "style": "solid",
+        "escale_depart": "Polynésie française",
+        "escale_arrivee": "Wallis-et-Futuna",
+        "distance_nm": 1580,
+        "notes": "Navigation Pacifique Sud-Ouest",
+        "feature_type": "route_segment",
+        "dateline_split": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -149.5585,
+            -17.5516
+          ],
+          [
+            -155.0,
+            -16.0
+          ],
+          [
+            -160.0,
+            -15.0
+          ],
+          [
+            -165.0,
+            -14.5
+          ],
+          [
+            -170.0,
+            -14.0
+          ],
+          [
+            -179.99,
+            -13.481065208586474
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "16. Polynésie → Wallis-et-Futuna (partie 2/2)",
+        "type": "maritime",
+        "style": "solid",
+        "escale_depart": "Polynésie française",
+        "escale_arrivee": "Wallis-et-Futuna",
+        "distance_nm": 1580,
+        "notes": "Navigation Pacifique Sud-Ouest",
+        "feature_type": "route_segment",
+        "dateline_split": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            179.99,
+            -13.481065208586474
+          ],
+          [
+            176.1736,
+            -13.2825
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "17. Wallis-et-Futuna → Nouvelle-Calédonie (partie 1/3)",
+        "type": "maritime",
+        "style": "solid",
+        "escale_depart": "Wallis-et-Futuna",
+        "escale_arrivee": "Nouvelle-Calédonie",
+        "distance_nm": 1100,
+        "notes": "Navigation vers Nouméa",
+        "feature_type": "route_segment",
+        "dateline_split": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            176.1736,
+            -13.2825
+          ],
+          [
+            179.99,
+            -14.41044212549773
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "17. Wallis-et-Futuna → Nouvelle-Calédonie (partie 2/3)",
+        "type": "maritime",
+        "style": "solid",
+        "escale_depart": "Wallis-et-Futuna",
+        "escale_arrivee": "Nouvelle-Calédonie",
+        "distance_nm": 1100,
+        "notes": "Navigation vers Nouméa",
+        "feature_type": "route_segment",
+        "dateline_split": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -179.99,
+            -14.41044212549773
+          ],
+          [
+            -178.0,
+            -15.0
+          ],
+          [
+            -179.99,
+            -17.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "17. Wallis-et-Futuna → Nouvelle-Calédonie (partie 3/3)",
+        "type": "maritime",
+        "style": "solid",
+        "escale_depart": "Wallis-et-Futuna",
+        "escale_arrivee": "Nouvelle-Calédonie",
+        "distance_nm": 1100,
+        "notes": "Navigation vers Nouméa",
+        "feature_type": "route_segment",
+        "dateline_split": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            179.99,
+            -17.0
+          ],
+          [
+            180.0,
+            -17.0
+          ],
+          [
+            175.0,
+            -19.0
+          ],
+          [
+            170.0,
+            -21.0
+          ],
+          [
+            166.4572,
+            -22.2758
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "18. Nouvelle-Calédonie → Détroit de Malacca",
+        "type": "maritime",
+        "style": "solid",
+        "escale_depart": "Nouvelle-Calédonie",
+        "passage_strategique": false,
+        "distance_nm": 4200,
+        "notes": "Traversée vers l'Asie du Sud-Est",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            166.4572,
+            -22.2758
+          ],
+          [
+            160.0,
+            -20.0
+          ],
+          [
+            155.0,
+            -17.0
+          ],
+          [
+            150.0,
+            -14.0
+          ],
+          [
+            145.0,
+            -10.0
+          ],
+          [
+            140.0,
+            -6.0
+          ],
+          [
+            135.0,
+            -2.0
+          ],
+          [
+            130.0,
+            0.0
+          ],
+          [
+            125.0,
+            1.0
+          ],
+          [
+            120.0,
+            2.0
+          ],
+          [
+            115.0,
+            3.0
+          ],
+          [
+            110.0,
+            3.5
+          ],
+          [
+            105.0,
+            3.8
+          ],
+          [
+            100.5,
+            3.5
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "19. Détroit de Malacca (passage stratégique)",
+        "type": "maritime",
+        "style": "solid",
+        "passage_strategique": true,
+        "strategic_passage_name": "Malacca",
+        "distance_nm": 500,
+        "notes": "PASSAGE STRATÉGIQUE - Pacifique → Océan Indien",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.5,
+            3.5
+          ],
+          [
+            100.0,
+            3.0
+          ],
+          [
+            99.5,
+            2.5
+          ],
+          [
+            99.0,
+            2.0
+          ],
+          [
+            98.5,
+            1.5
+          ],
+          [
+            98.0,
+            1.2
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "20. Malacca → Mayotte",
+        "type": "maritime",
+        "style": "solid",
+        "escale_arrivee": "Mayotte",
+        "distance_nm": 3950,
+        "notes": "Traversée Océan Indien vers Afrique de l'Est",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.0,
+            1.2
+          ],
+          [
+            95.0,
+            0.0
+          ],
+          [
+            90.0,
+            -2.0
+          ],
+          [
+            85.0,
+            -4.0
+          ],
+          [
+            80.0,
+            -6.0
+          ],
+          [
+            75.0,
+            -8.0
+          ],
+          [
+            70.0,
+            -9.5
+          ],
+          [
+            65.0,
+            -10.5
+          ],
+          [
+            60.0,
+            -11.5
+          ],
+          [
+            55.0,
+            -12.0
+          ],
+          [
+            50.0,
+            -12.5
+          ],
+          [
+            45.275,
+            -12.7871
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "21. Mayotte → La Réunion",
+        "type": "maritime",
+        "style": "solid",
+        "escale_depart": "Mayotte",
+        "escale_arrivee": "La Réunion",
+        "distance_nm": 850,
+        "notes": "Navigation entre territoires français de l'Océan Indien",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            45.275,
+            -12.7871
+          ],
+          [
+            47.0,
+            -14.0
+          ],
+          [
+            49.0,
+            -16.0
+          ],
+          [
+            51.0,
+            -18.0
+          ],
+          [
+            53.0,
+            -19.5
+          ],
+          [
+            55.2242,
+            -21.0594
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "22. La Réunion → Europa (TAAF)",
+        "type": "maritime",
+        "style": "solid",
+        "escale_depart": "La Réunion",
+        "escale_arrivee": "Europa",
+        "distance_nm": 780,
+        "notes": "Navigation vers les Îles Éparses - Canal du Mozambique",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            55.2242,
+            -21.0594
+          ],
+          [
+            52.0,
+            -21.5
+          ],
+          [
+            49.0,
+            -22.0
+          ],
+          [
+            46.0,
+            -22.2
+          ],
+          [
+            43.0,
+            -22.3
+          ],
+          [
+            40.35,
+            -22.35
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "23. Europa → Tromelin (TAAF)",
+        "type": "maritime",
+        "style": "solid",
+        "escale_depart": "Europa",
+        "escale_arrivee": "Tromelin",
+        "distance_nm": 820,
+        "notes": "Navigation entre îles TAAF",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            40.35,
+            -22.35
+          ],
+          [
+            43.0,
+            -21.5
+          ],
+          [
+            46.0,
+            -20.0
+          ],
+          [
+            49.0,
+            -18.5
+          ],
+          [
+            52.0,
+            -17.0
+          ],
+          [
+            54.52,
+            -15.89
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "24. Tromelin → Cap de Bonne-Espérance",
+        "type": "maritime",
+        "style": "solid",
+        "escale_depart": "Tromelin",
+        "passage_strategique": false,
+        "distance_nm": 2150,
+        "notes": "Route vers le Cap - passage obligatoire (pas Suez)",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            54.52,
+            -15.89
+          ],
+          [
+            50.0,
+            -18.0
+          ],
+          [
+            45.0,
+            -21.0
+          ],
+          [
+            40.0,
+            -25.0
+          ],
+          [
+            35.0,
+            -30.0
+          ],
+          [
+            30.0,
+            -33.0
+          ],
+          [
+            25.0,
+            -34.5
+          ],
+          [
+            20.0,
+            -35.0
+          ],
+          [
+            18.4,
+            -34.4
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "25. Contournement Cap de Bonne-Espérance",
+        "type": "maritime",
+        "style": "solid",
+        "distance_nm": 120,
+        "notes": "Passage du Cap - point le plus au sud de la route",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.4,
+            -34.4
+          ],
+          [
+            18.3,
+            -34.5
+          ],
+          [
+            18.2,
+            -34.6
+          ],
+          [
+            18.1,
+            -34.7
+          ],
+          [
+            18.0,
+            -34.8
+          ],
+          [
+            17.9,
+            -34.8
+          ],
+          [
+            17.8,
+            -34.7
+          ],
+          [
+            17.7,
+            -34.6
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "26. Cap → Atlantique Sud",
+        "type": "maritime",
+        "style": "solid",
+        "distance_nm": 3200,
+        "notes": "Remontée Atlantique Sud",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            17.7,
+            -34.6
+          ],
+          [
+            15.0,
+            -32.0
+          ],
+          [
+            10.0,
+            -28.0
+          ],
+          [
+            5.0,
+            -23.0
+          ],
+          [
+            0.0,
+            -18.0
+          ],
+          [
+            -5.0,
+            -12.0
+          ],
+          [
+            -10.0,
+            -5.0
+          ],
+          [
+            -12.0,
+            0.0
+          ],
+          [
+            -14.0,
+            5.0
+          ],
+          [
+            -15.0,
+            10.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "27. Atlantique Sud → Atlantique Nord",
+        "type": "maritime",
+        "style": "solid",
+        "distance_nm": 2800,
+        "notes": "Traversée de l'équateur - remontée vers l'Europe",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -15.0,
+            10.0
+          ],
+          [
+            -16.0,
+            15.0
+          ],
+          [
+            -17.0,
+            20.0
+          ],
+          [
+            -16.0,
+            25.0
+          ],
+          [
+            -14.0,
+            28.0
+          ],
+          [
+            -12.0,
+            30.0
+          ],
+          [
+            -10.0,
+            32.0
+          ],
+          [
+            -8.0,
+            34.0
+          ],
+          [
+            -6.5,
+            35.5
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "28. Approche Gibraltar (retour)",
+        "type": "maritime",
+        "style": "solid",
+        "passage_strategique": true,
+        "strategic_passage_name": "Gibraltar",
+        "distance_nm": 80,
+        "notes": "Approche du détroit de Gibraltar - retour en Méditerranée",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6.5,
+            35.5
+          ],
+          [
+            -6.0,
+            36.0
+          ],
+          [
+            -5.5,
+            36.0
+          ],
+          [
+            -5.3553,
+            36.1377
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "29. Gibraltar → Méditerranée",
+        "type": "maritime",
+        "style": "solid",
+        "passage_strategique": true,
+        "strategic_passage_name": "Gibraltar",
+        "distance_nm": 30,
+        "notes": "Entrée en Méditerranée",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.3553,
+            36.1377
+          ],
+          [
+            -5.0,
+            36.2
+          ],
+          [
+            -4.0,
+            36.5
+          ],
+          [
+            -3.0,
+            37.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "30. Méditerranée → Corse",
+        "type": "maritime",
+        "style": "solid",
+        "escale_arrivee": "Corse",
+        "distance_nm": 820,
+        "notes": "Navigation en Méditerranée vers la Corse",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.0,
+            37.0
+          ],
+          [
+            0.0,
+            38.5
+          ],
+          [
+            2.0,
+            39.5
+          ],
+          [
+            4.0,
+            40.5
+          ],
+          [
+            6.0,
+            41.5
+          ],
+          [
+            8.0,
+            42.0
+          ],
+          [
+            8.7386,
+            41.9192
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "31. Contournement Corse (Sud-Est)",
+        "type": "maritime",
+        "style": "solid",
+        "escale_depart": "Corse",
+        "distance_nm": 180,
+        "notes": "Contournement de la Corse par le sud et l'est",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7386,
+            41.9192
+          ],
+          [
+            9.0,
+            41.7
+          ],
+          [
+            9.3,
+            41.4
+          ],
+          [
+            9.5,
+            41.2
+          ],
+          [
+            9.5,
+            41.0
+          ],
+          [
+            9.4,
+            40.8
+          ],
+          [
+            9.2,
+            40.6
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "32. Contournement Corse (Nord-Ouest)",
+        "type": "maritime",
+        "style": "solid",
+        "distance_nm": 220,
+        "notes": "Contournement de la Corse par le nord et l'ouest",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.2,
+            40.6
+          ],
+          [
+            9.0,
+            40.5
+          ],
+          [
+            8.7,
+            40.6
+          ],
+          [
+            8.5,
+            41.0
+          ],
+          [
+            8.5,
+            41.5
+          ],
+          [
+            8.6,
+            42.0
+          ],
+          [
+            8.8,
+            42.5
+          ],
+          [
+            9.0,
+            43.0
+          ],
+          [
+            9.2,
+            43.2
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "33. Corse → Gibraltar (retour final)",
+        "type": "maritime",
+        "style": "solid",
+        "distance_nm": 850,
+        "notes": "Route de retour vers Gibraltar",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.2,
+            43.2
+          ],
+          [
+            7.0,
+            43.0
+          ],
+          [
+            5.0,
+            42.5
+          ],
+          [
+            3.0,
+            41.5
+          ],
+          [
+            1.0,
+            40.0
+          ],
+          [
+            -1.0,
+            38.5
+          ],
+          [
+            -3.0,
+            37.0
+          ],
+          [
+            -5.0,
+            36.2
+          ],
+          [
+            -5.3553,
+            36.1377
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "34. Gibraltar → La Rochelle (retour final)",
+        "type": "maritime",
+        "style": "solid",
+        "escale_arrivee": "La Rochelle",
+        "distance_nm": 780,
+        "notes": "Remontée finale vers La Rochelle - arrivée maritime",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -5.3553,
+            36.1377
+          ],
+          [
+            -6.5,
+            38.5
+          ],
+          [
+            -5.5,
+            41.0
+          ],
+          [
+            -3.0,
+            43.5
+          ],
+          [
+            -2.0,
+            44.5
+          ],
+          [
+            -1.5,
+            45.5
+          ],
+          [
+            -1.152,
+            46.1591
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment": "35. La Rochelle → Saint-Maur",
+        "type": "terrestrial",
+        "style": "dashed",
+        "escale_depart": "La Rochelle",
+        "escale_arrivee": "Saint-Maur",
+        "distance_nm": 0,
+        "notes": "Retour terrestre - fin de l'expédition",
+        "feature_type": "route_segment"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.152,
+            46.1591
+          ],
+          [
+            1.6358,
+            46.8075
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "numero": 1,
+        "escale": "Saint-Maur",
+        "nom_complet": "Saint-Maur (Berry, Indre)",
+        "territoire": "France métropolitaine",
+        "type": "Départ terrestre",
+        "code_postal": "36250",
+        "ocean": "Terrestre",
+        "feature_type": "stopover"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6358,
+          46.8075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "numero": 2,
+        "escale": "La Rochelle",
+        "nom_complet": "La Rochelle",
+        "territoire": "France métropolitaine",
+        "type": "Départ maritime",
+        "code_postal": "17000",
+        "ocean": "Atlantique",
+        "feature_type": "stopover"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.152,
+          46.1591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "numero": 3,
+        "escale": "Guadeloupe",
+        "nom_complet": "Pointe-à-Pitre (Guadeloupe)",
+        "territoire": "Guadeloupe",
+        "type": "Escale maritime",
+        "ocean": "Atlantique (Caraïbes)",
+        "feature_type": "stopover"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.5331,
+          16.2415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "numero": 4,
+        "escale": "Martinique",
+        "nom_complet": "Fort-de-France (Martinique)",
+        "territoire": "Martinique",
+        "type": "Escale maritime",
+        "ocean": "Atlantique (Caraïbes)",
+        "feature_type": "stopover"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.0731,
+          14.6037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "numero": 5,
+        "escale": "Saint-Barthélemy",
+        "nom_complet": "Gustavia (Saint-Barthélemy)",
+        "territoire": "Saint-Barthélemy",
+        "type": "Escale maritime",
+        "ocean": "Atlantique (Caraïbes)",
+        "feature_type": "stopover"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.8498,
+          17.8962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "numero": 6,
+        "escale": "Saint-Martin",
+        "nom_complet": "Marigot (Saint-Martin)",
+        "territoire": "Saint-Martin",
+        "type": "Escale maritime",
+        "ocean": "Atlantique (Caraïbes)",
+        "feature_type": "stopover"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.0822,
+          18.0679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "numero": 7,
+        "escale": "Saint-Pierre-et-Miquelon",
+        "nom_complet": "Saint-Pierre (SPM)",
+        "territoire": "Saint-Pierre-et-Miquelon",
+        "type": "Escale découplée (via Halifax)",
+        "ocean": "Atlantique Nord",
+        "feature_type": "stopover"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1778,
+          46.7811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "numero": "7a",
+        "escale": "Halifax",
+        "nom_complet": "Halifax (Nouvelle-Écosse)",
+        "territoire": "Canada (connexion SPM)",
+        "type": "Escale de connexion",
+        "ocean": "Atlantique Nord",
+        "feature_type": "stopover"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5752,
+          44.6488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "numero": 8,
+        "escale": "Guyane",
+        "nom_complet": "Cayenne (Guyane)",
+        "territoire": "Guyane française",
+        "type": "Escale maritime",
+        "ocean": "Atlantique",
+        "feature_type": "stopover"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.3333,
+          4.9333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "numero": 9,
+        "escale": "Polynésie française",
+        "nom_complet": "Papeete (Tahiti, Polynésie française)",
+        "territoire": "Polynésie française",
+        "type": "Escale maritime",
+        "ocean": "Pacifique Sud",
+        "feature_type": "stopover"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.5585,
+          -17.5516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "numero": 10,
+        "escale": "Wallis-et-Futuna",
+        "nom_complet": "Mata-Utu (Wallis-et-Futuna)",
+        "territoire": "Wallis-et-Futuna",
+        "type": "Escale maritime",
+        "ocean": "Pacifique Sud",
+        "feature_type": "stopover"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.1736,
+          -13.2825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "numero": 11,
+        "escale": "Nouvelle-Calédonie",
+        "nom_complet": "Nouméa (Nouvelle-Calédonie)",
+        "territoire": "Nouvelle-Calédonie",
+        "type": "Escale maritime",
+        "ocean": "Pacifique Sud",
+        "feature_type": "stopover"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.4572,
+          -22.2758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "numero": 12,
+        "escale": "Mayotte",
+        "nom_complet": "Dzaoudzi (Mayotte)",
+        "territoire": "Mayotte",
+        "type": "Escale maritime",
+        "ocean": "Océan Indien",
+        "feature_type": "stopover"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.275,
+          -12.7871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "numero": 13,
+        "escale": "La Réunion",
+        "nom_complet": "Saint-Gilles (La Réunion)",
+        "territoire": "La Réunion",
+        "type": "Escale maritime",
+        "ocean": "Océan Indien",
+        "feature_type": "stopover"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.2242,
+          -21.0594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "numero": "14a",
+        "escale": "Europa",
+        "nom_complet": "Europa (TAAF, Îles Éparses)",
+        "territoire": "TAAF",
+        "type": "Escale maritime",
+        "ocean": "Canal du Mozambique",
+        "feature_type": "stopover"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.35,
+          -22.35
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "numero": "14b",
+        "escale": "Tromelin",
+        "nom_complet": "Tromelin (TAAF, Îles Éparses)",
+        "territoire": "TAAF",
+        "type": "Escale maritime",
+        "ocean": "Océan Indien",
+        "feature_type": "stopover"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.52,
+          -15.89
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "numero": 15,
+        "escale": "Corse",
+        "nom_complet": "Ajaccio (Corse)",
+        "territoire": "France métropolitaine",
+        "type": "Dernière escale maritime",
+        "ocean": "Méditerranée",
+        "feature_type": "stopover"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7386,
+          41.9192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "numero": 1,
+        "passage": "Gibraltar",
+        "nom_complet": "Détroit de Gibraltar",
+        "type": "Détroit naturel",
+        "connexion": "Méditerranée ↔ Atlantique",
+        "largeur_minimum_km": 14.3,
+        "profondeur_moyenne_m": 300,
+        "importance": "Passage obligatoire Europe-Afrique",
+        "passages_expedition": 3,
+        "notes": "Passé 3 fois : aller (Med→Atl), retour initial (Atl→Med), retour final (Med→Atl→Med→Atl)",
+        "feature_type": "strategic_passage_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.3553,
+          36.1377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "numero": 2,
+        "passage": "Panama",
+        "nom_complet": "Canal de Panama",
+        "type": "Canal artificiel",
+        "connexion": "Atlantique → Pacifique",
+        "longueur_km": 82,
+        "ecluses": 3,
+        "ouverture": 1914,
+        "importance": "Raccourci majeur Atlantique-Pacifique",
+        "passages_expedition": 1,
+        "notes": "Navigation Guyane → Polynésie française",
+        "feature_type": "strategic_passage_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.55,
+          9.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "numero": 3,
+        "passage": "Malacca",
+        "nom_complet": "Détroit de Malacca",
+        "type": "Détroit naturel",
+        "connexion": "Pacifique → Océan Indien",
+        "longueur_km": 800,
+        "largeur_minimum_km": 2.8,
+        "importance": "Route maritime la plus fréquentée au monde",
+        "passages_expedition": 1,
+        "notes": "Navigation Nouvelle-Calédonie → Mayotte",
+        "feature_type": "strategic_passage_point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.0,
+          2.0
+        ]
+      }
+    }
+  ]
+}
