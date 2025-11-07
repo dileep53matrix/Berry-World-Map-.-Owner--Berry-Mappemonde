@@ -1,0 +1,25 @@
+**BATCH 1: ATLANTIC OCEAN CROSSINGS**
+[ ] Segment 2: La Rochelle → Pointe-à-Pitre
+[ ] Segment 8: Saint-Pierre → Cayenne
+[ ] Segment 16: Tromelin → Ajaccio
+[ ] Segment 17: Ajaccio → La Rochelle
+
+**BATCH 2: CARIBBEAN & COASTAL**
+[ ] Segment 3: Pointe-à-Pitre → Fort-de-France
+[ ] Segment 4: Fort-de-France → Gustavia
+[ ] Segment 5: Gustavia → Marigot
+[ ] Segment 7: Halifax → Saint-Pierre
+
+**BATCH 3: PACIFIC OCEAN**
+[ ] Segment 9: Cayenne → Papeete
+[ ] Segment 10: Papeete → Mata-Utu
+[ ] Segment 11: Mata-Utu → Nouméa
+
+**BATCH 4: INDIAN OCEAN**
+[ ] Segment 12: Nouméa → Dzaoudzi
+[ ] Segment 13: Dzaoudzi → Saint-Gilles
+[ ] Segment 14: Saint-Gilles → Europa
+[ ] Segment 15: Europa → Tromelin
+
+**SPECIAL SEGMENTS**
+[ ] Segment 6: Marigot → Halifax (AIR - No Searoute needed)
