@@ -1,6 +1,6 @@
 **BATCH 1: ATLANTIC OCEAN CROSSINGS**
-[ ] Segment 2: La Rochelle → Pointe-à-Pitre
-[ ] Segment 8: Saint-Pierre → Cayenne
+[X] Segment 2: La Rochelle → Pointe-à-Pitre  ✅
+[X] Segment 8: Saint-Pierre → Cayenne  ✅
 [ ] Segment 16: Tromelin → Ajaccio
 [ ] Segment 17: Ajaccio → La Rochelle
 
@@ -22,4 +22,5 @@
 [ ] Segment 15: Europa → Tromelin
 
 **SPECIAL SEGMENTS**
+
 [ ] Segment 6: Marigot → Halifax (AIR - No Searoute needed)
