@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Berry Mappemonde</name>
+	<gx:CascadingStyle kml:id="__managed_style_0A9B208BE73B93145BE1">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0BA28325A83B93145BE4">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_07108443FB3B93145BE0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_0A9B208BE73B93145BE1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0BA28325A83B93145BE4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="08D6DAD9013B91A86E7B">
+		<name>46°48&apos;27.0&quot;N 1°38&apos;08.9&quot;E</name>
+		<LookAt>
+			<longitude>1.6358</longitude>
+			<latitude>46.8075</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>695.7960645131316</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_07108443FB3B93145BE0</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>1.6358,46.8075,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C0967CF8E3B91AB6773">
+		<name>46°09&apos;32.8&quot;N 1°09&apos;07.2&quot;W</name>
+		<LookAt>
+			<longitude>-1.152</longitude>
+			<latitude>46.1591</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>704.8586104860243</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_07108443FB3B93145BE0</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<coordinates>-1.152,46.1591,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A516D5C103B93274B4E">
+		<name>Land path</name>
+		<LookAt>
+			<longitude>0.9081762857620213</longitude>
+			<latitude>46.77730262710271</latitude>
+			<altitude>72.36599188448912</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>360806.5570028499</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_07108443FB3B93145BE0</styleUrl>
+		<LineString>
+			<coordinates>
+				1.638142250141386,46.83333509803997,0 -1.15432910939865,46.17291286038204,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
